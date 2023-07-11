@@ -109,6 +109,33 @@ public:
     }
 };
 
+
+struct CaseVisitor : public SyntaxVisitor<CaseVisitor> {
+    SourceManager *treeSourceManager;
+    CaseVisitor(SourceManager *sm) {
+        this->treeSourceManager = sm;
+    }
+
+    void handle(const CaseStatementSyntax &t) {
+        bool hasDefaultStmt = false;
+        for(auto & caseItem : t.items) {
+            if(caseItem->kind == syntax::SyntaxKind::DefaultCaseItem) {
+                hasDefaultStmt = true;
+            }
+            // std::cout << caseItem->kind << "\n";
+
+        }
+
+        // //parent and child have matching param identifiers; child doesn't assign parameter to parent identifier
+        if(!hasDefaultStmt) {
+
+            std::string_view filename = treeSourceManager->getFileName(t.sourceRange().start());
+            std::size_t lineNum = treeSourceManager->getLineNumber(t.sourceRange().start());
+            std::cerr << "Warning - In file " << filename << ", line " << lineNum << ": " << "No default case\n";
+        }
+    }
+};
+
 class ParameterScanner {
 private:
     //root node of AST
@@ -116,20 +143,27 @@ private:
 
     //Parameter visitor
     ParameterVisitor *paramVisitor;
+    CaseVisitor *caseVisitor;
 
 public:
     ParameterScanner(std::shared_ptr<SyntaxTree> tree) {
         this->root = &(tree->root());
         this->paramVisitor = new ParameterVisitor(&(tree->sourceManager()));
+        this->caseVisitor = new CaseVisitor(&(tree->sourceManager()));
+
     }
     
     ~ParameterScanner() {
         if(this->paramVisitor != nullptr) {
             delete this->paramVisitor;
         }
+        if(this->caseVisitor != nullptr) {
+            delete this->caseVisitor;
+        }
     }
 
     void scan() {
         root->visit(*paramVisitor);
+        root->visit(*caseVisitor);
     }
 };

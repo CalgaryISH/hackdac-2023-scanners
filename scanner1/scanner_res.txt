@@ -1,87 +1,87 @@
-scanning file ../hackdac/opentitan/hw/ip/otp_ctrl/rtl/otp_ctrl_prim_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/otp_ctrl/rtl/otp_ctrl_prim_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/otp_ctrl/rtl/otp_ctrl_core_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/otp_ctrl/rtl/otp_ctrl_core_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/lc_ctrl/rtl/lc_ctrl_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/lc_ctrl/rtl/lc_ctrl_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/adc_ctrl/rtl/adc_ctrl_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/adc_ctrl/rtl/adc_ctrl_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/entropy_src/rtl/entropy_src_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/entropy_src/rtl/entropy_src_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/otbn/rtl/otbn_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/otbn/rtl/otbn_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/pinmux/rtl/pinmux_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/pinmux/rtl/pinmux_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/gpio/rtl/gpio_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/gpio/rtl/gpio_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/rom_ctrl/rtl/rom_ctrl_rom_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/rom_ctrl/rtl/rom_ctrl_rom_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/rom_ctrl/rtl/rom_ctrl_regs_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/rom_ctrl/rtl/rom_ctrl_regs_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/i2c/rtl/i2c_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/i2c/rtl/i2c_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/uart/rtl/uart_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/uart/rtl/uart_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/trial1/rtl/trial1_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/trial1/rtl/trial1_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/kmac/rtl/kmac_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/kmac/rtl/kmac_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/rv_timer/rtl/rv_timer_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/rv_timer/rtl/rv_timer_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/aes/rtl/aes_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/aes/rtl/aes_reg_top.sv
 
-Insecure assignment in line 1645
-Insecure assignment in line 1649
-Insecure assignment in line 1653
-Insecure assignment in line 1657
-Insecure assignment in line 1661
-Insecure assignment in line 1665
-Insecure assignment in line 1669
-Insecure assignment in line 1673
-Insecure assignment in line 1792
-scanning file ../hackdac/opentitan/hw/ip/pattgen/rtl/pattgen_reg_top.sv
+Insecure assignment in line 1645: reg_rdata_next[31:0] = reg2hw.key_share0[0].q;
+Insecure assignment in line 1649: reg_rdata_next[31:0] = reg2hw.key_share0[1].q;
+Insecure assignment in line 1653: reg_rdata_next[31:0] = reg2hw.key_share0[2].q;
+Insecure assignment in line 1657: reg_rdata_next[31:0] = reg2hw.key_share0[3].q;
+Insecure assignment in line 1661: reg_rdata_next[31:0] = reg2hw.key_share0[4].q;
+Insecure assignment in line 1665: reg_rdata_next[31:0] = reg2hw.key_share0[5].q;
+Insecure assignment in line 1669: reg_rdata_next[31:0] = reg2hw.key_share0[6].q;
+Insecure assignment in line 1673: reg_rdata_next[31:0] = reg2hw.key_share0[7].q;
+Insecure assignment in line 1792: reg_rdata_next = reg2hw.key_share0[0].q;
+scanning file ../../hackdac/opentitan/hw/ip/pattgen/rtl/pattgen_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/hmac/rtl/hmac_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/hmac/rtl/hmac_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/pwrmgr/rtl/pwrmgr_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/pwrmgr/rtl/pwrmgr_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/keymgr/rtl/keymgr_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/keymgr/rtl/keymgr_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/flash_ctrl/rtl/flash_ctrl_core_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/flash_ctrl/rtl/flash_ctrl_core_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/flash_ctrl/rtl/flash_ctrl_mem_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/flash_ctrl/rtl/flash_ctrl_mem_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/flash_ctrl/rtl/flash_ctrl_prim_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/flash_ctrl/rtl/flash_ctrl_prim_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/spi_host/rtl/spi_host_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/spi_host/rtl/spi_host_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/sysrst_ctrl/rtl/sysrst_ctrl_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/sysrst_ctrl/rtl/sysrst_ctrl_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/rv_core_ibex/rtl/rv_core_ibex_cfg_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/rv_core_ibex/rtl/rv_core_ibex_cfg_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/aon_timer/rtl/aon_timer_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/aon_timer/rtl/aon_timer_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/spi_device/rtl/spi_device_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/spi_device/rtl/spi_device_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/rstmgr/rtl/rstmgr_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/rstmgr/rtl/rstmgr_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/clkmgr/rtl/clkmgr_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/clkmgr/rtl/clkmgr_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/csrng/rtl/csrng_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/csrng/rtl/csrng_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/edn/rtl/edn_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/edn/rtl/edn_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/rv_dm/rtl/rv_dm_rom_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/rv_dm/rtl/rv_dm_rom_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/rv_dm/rtl/rv_dm_regs_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/rv_dm/rtl/rv_dm_regs_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/pwm/rtl/pwm_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/pwm/rtl/pwm_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/usbdev/rtl/usbdev_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/usbdev/rtl/usbdev_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/sram_ctrl/rtl/sram_ctrl_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/sram_ctrl/rtl/sram_ctrl_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/sram_ctrl/rtl/sram_ctrl_ram_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/sram_ctrl/rtl/sram_ctrl_ram_reg_top.sv
 
-scanning file ../hackdac/opentitan/hw/ip/sram_ctrl/rtl/sram_ctrl_regs_reg_top.sv
+scanning file ../../hackdac/opentitan/hw/ip/sram_ctrl/rtl/sram_ctrl_regs_reg_top.sv
 

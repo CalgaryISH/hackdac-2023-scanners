@@ -23,7 +23,7 @@ def main():
                     lineno = 1
                     for line in lines:
                         if insecureAssign.search(line) != None:
-                            print(f'Insecure assignment in line {lineno}')
+                            print(f'Insecure assignment in line {lineno}: {line.strip()}')
                         lineno += 1
 
 
